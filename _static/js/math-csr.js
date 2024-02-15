@@ -1,4 +1,4 @@
-/*MathJax = {
+MathJax = {
   chtml: {
     scale: 1.0,
     matchFontHeight: false
@@ -12,11 +12,11 @@
       }
     }
   }
-};*/
+};
 
 document$.subscribe(() => {
-    //MathJax.startup.output.clearCache()
-    //MathJax.typesetClear()
-    //MathJax.texReset()
+    MathJax.startup.output.clearCache()
+    MathJax.typesetClear()
+    MathJax.texReset()
     MathJax.typesetPromise()
   })
