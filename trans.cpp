@@ -9,16 +9,19 @@ int main() {
         return 1;
     }
     std::string content((std::istreambuf_iterator<char>(inputFile)), std::istreambuf_iterator<char>());
-    std::regex pattern(R"(<div class="md-sidebar md-sidebar--secondary")");
-    std::string replacement = R"($& id="index-toc")";
-    std::string replacedContent = std::regex_replace(content, pattern, replacement);
+    std::regex pattern1(R"(<div class="md-sidebar md-sidebar--secondary")");
+    std::string replacement1 = R"($& id="index-toc")";
+    std::string replacedContent = std::regex_replace(content, pattern1, replacement1);
+    std::regex pattern2(R"(<div class="md-sidebar md-sidebar--primary")");
+    std::string replacement2 = R"($& id="index-main")";
+    std::string replacedContent2 = std::regex_replace(replacedContent, pattern2, replacement2);
     inputFile.close();
     std::ofstream outputFile("../site/index.html");
     if (!outputFile.is_open()) {
         std::cerr << "Failed to open output file." << std::endl;
         return 1;
     }
-    outputFile << replacedContent;
+    outputFile << replacedContent2;
     outputFile.close();
     std::cout << "Replacement completed successfully." << std::endl;
     return 0;
