@@ -1,3 +1,7 @@
+div#index-main {
+    display: none !important;
+}
+
 .md-typeset div.arithmatex {
     overflow-y: hidden !important;
 }
