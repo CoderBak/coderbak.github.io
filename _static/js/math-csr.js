@@ -4,7 +4,7 @@ MathJax = {
     matchFontHeight: false
   },
   options: {
-    enableMenu: true,
+    enableMenu: false,
     menuOptions: {
       settings: {
         renderer: 'CHTML',
