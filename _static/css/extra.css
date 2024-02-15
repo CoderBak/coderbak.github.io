@@ -1,3 +1,7 @@
+.md-typeset div.arithmatex {
+    overflow-y: hidden !important;
+}
+
 div#index-toc {
     order: 0 !important;
 }

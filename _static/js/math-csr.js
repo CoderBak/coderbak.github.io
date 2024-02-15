@@ -1,6 +1,6 @@
 MathJax = {
   chtml: {
-    scale: 1.0,
+    scale: 1.1,
     matchFontHeight: false
   },
   options: {
@@ -8,7 +8,7 @@ MathJax = {
     menuOptions: {
       settings: {
         renderer: 'CHTML',
-        scale: 1.0
+        scale: 1.1
       }
     }
   }
