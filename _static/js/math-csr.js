@@ -1,14 +1,14 @@
 MathJax = {
   chtml: {
-    scale: 1.1,
+    scale: 1.0,
     matchFontHeight: false
   },
   options: {
-    enableMenu: false,
+    enableMenu: true,
     menuOptions: {
       settings: {
         renderer: 'CHTML',
-        scale: 1.1
+        scale: 1.0
       }
     }
   }
