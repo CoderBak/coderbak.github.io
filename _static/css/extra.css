@@ -1,5 +1,5 @@
 div#index-main {
-    display: none !important;
+    width: 0rem !important;
 }
 
 .md-typeset div.arithmatex {
