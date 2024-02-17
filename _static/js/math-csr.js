@@ -11,7 +11,8 @@ MathJax = {
         scale: 1.1
       }
     }
-  }
+  },
+  loader: {load: ['ui/lazy']}
 };
 
 document$.subscribe(() => {
