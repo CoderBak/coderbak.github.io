@@ -12,6 +12,20 @@ int main() {
     std::regex pattern1(R"(<div class="md-sidebar md-sidebar--secondary")");
     std::string replacement1 = R"($& id="index-toc")";
     std::string replacedContent = std::regex_replace(content, pattern1, replacement1);
+    std::regex pattern2(R"(<div class="md-sidebar__scrollwrap"> style=")");
+    std::string replacement2 = R"(<div itemscope="" itemtype="http://schema.org/Person" class="profile_box" style="padding-left: .5rem;padding-right: 1rem;"><div class="author__avatar"><img src="https://coderbak.com/document/avatar.png" class="author__avatar"></div>
+  <div class="author__content">
+    <hr><h3 class="author__name" style="font-size: .9rem !important;">Haoxiang Sun</h3>
+    <p class="author__bio">Renmin University of China</p>
+  </div>
+  <div class="author__urls-wrapper">
+    <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
+    <ul class="author__urls social-icons" style="">
+        <li><div style="white-space: normal; margin-bottom: 1em;">Research scientist in TikTok, Data-Speech Dept. Focusing on speech, NLP and music.</div></li>
+    </ul>
+  </div>
+</div>
+    <div class="md-sidebar__scrollwrap" style="display: none !important;)";
     inputFile.close();
     std::ofstream outputFile("../site/index.html");
     if (!outputFile.is_open()) {
