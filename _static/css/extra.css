@@ -293,9 +293,9 @@ p#word {
     margin: 0em 0 0.8em !important;
 }
 
-.md-typeset h1, .md-typeset h2 {
+/*.md-typeset h1, .md-typeset h2 {
     color: initial !important;
-}
+}*/
 
 img#beian {
     position: relative !important;
