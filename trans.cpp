@@ -28,13 +28,16 @@ int main() {
 </div>
     <div class=md-sidebar__scrollwrap style="display: none !important;">)";
     std::string replacedContent2 = std::regex_replace(replacedContent, pattern2, replacement2);
+    std::regex pattern3(R"(<h1>Home</h1>)");
+    std::string replacement3 = R"()";
+    std::string replacedContent3 = std::regex_replace(replacedContent2, pattern3, replacement3);
     inputFile.close();
     std::ofstream outputFile("../site/index.html");
     if (!outputFile.is_open()) {
         std::cerr << "Failed to open output file." << std::endl;
         return 1;
     }
-    outputFile << replacedContent2;
+    outputFile << replacedContent3;
     outputFile.close();
     std::cout << "Replacement completed successfully." << std::endl;
     return 0;
