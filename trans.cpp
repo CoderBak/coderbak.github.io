@@ -13,7 +13,7 @@ int main() {
     std::string replacement1 = R"($& id="index-toc")";
     std::string replacedContent = std::regex_replace(content, pattern1, replacement1);
     std::regex pattern2(R"(<div class=md-sidebar__scrollwrap>)");
-    std::string replacement2 = R"(<div itemscope="" itemtype="http://schema.org/Person" class="profile_box" style="padding-left: 1.3rem;padding-right: 1.1rem;"><div class="author__avatar"><img src="https://coderbak.com/document/avatar.jpeg" class="author__avatar"></div>
+    std::string replacement2 = R"(<div itemscope="" itemtype="http://schema.org/Person" class="profile_box" style="padding-left: 1rem;padding-right: 1.1rem;"><div class="author__avatar"><img src="https://coderbak.com/document/avatar.jpeg" class="author__avatar"></div>
   <div class="author__content">
     <hr><h3 class="author__name" style="font-size: .9rem !important;">Haoxiang Sun</h3>
     <p class="author__bio">Renmin University of China</p>
