@@ -12,7 +12,7 @@ int main() {
     std::regex pattern1(R"(<div class="md-sidebar md-sidebar--secondary")");
     std::string replacement1 = R"($& id="index-toc")";
     std::string replacedContent = std::regex_replace(content, pattern1, replacement1);
-    std::regex pattern2(R"(<div class="md-sidebar__scrollwrap" style=")");
+    std::regex pattern2(R"(<div class=md-sidebar__scrollwrap>)");
     std::string replacement2 = R"(<div itemscope="" itemtype="http://schema.org/Person" class="profile_box" style="padding-left: .5rem;padding-right: 1rem;"><div class="author__avatar"><img src="https://coderbak.com/document/avatar.png" class="author__avatar"></div>
   <div class="author__content">
     <hr><h3 class="author__name" style="font-size: .9rem !important;">Haoxiang Sun</h3>
@@ -25,7 +25,7 @@ int main() {
     </ul>
   </div>
 </div>
-    <div class="md-sidebar__scrollwrap" style="display: none !important;)";
+    <div class=md-sidebar__scrollwrap style="display: none !important;">)";
     std::string replacedContent2 = std::regex_replace(replacedContent, pattern2, replacement2);
     inputFile.close();
     std::ofstream outputFile("../site/index.html");
