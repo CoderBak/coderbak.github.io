@@ -28,7 +28,7 @@
 }
 
 .author__avatar img {
-    max-width: 175px;
+    max-width: 200px;
     min-width: 75px;
     border-radius: 50%
 }
@@ -36,7 +36,6 @@
 @media (min-width: 57.8125em) {
     .author__avatar img {
         padding:5px;
-        border: 1px solid #f2f3f3
     }
 }
 
@@ -128,7 +127,6 @@
     margin-top: 15px;
     padding: 10px;
     list-style-type: none;
-    border: 1px solid #f2f3f3;
     border-radius: 4px;
     background: #fff;
     z-index: -1;
