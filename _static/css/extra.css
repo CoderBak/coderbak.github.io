@@ -4,7 +4,8 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 2em 0 2em 0
+    /* change the padding 2em 0 2em 0*/
+    padding: 0em 0 0em 0
 }
 
 .paper-box .paper-box-image {
