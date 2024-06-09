@@ -21,7 +21,7 @@ int main() {
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons" style="">
-        <li><div style="white-space: normal; margin-bottom: 1em;">This part is self introduction for test. Website under construction.
+        <li><div style="white-space: normal; margin-bottom: 1em;">「我追着梦的光点。 」
         </div></li>
     </ul>
   </div>
