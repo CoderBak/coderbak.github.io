@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://coderbak.com/projects/</loc>
+         <lastmod>2024-06-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://coderbak.com/courses/</loc>
          <lastmod>2024-06-10</lastmod>
          <changefreq>daily</changefreq>
