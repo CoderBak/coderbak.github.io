@@ -94,10 +94,8 @@
     }
 }
 
-@media (min-width: 57.8125em) {
-    .social_icons button {
-        display:none !important
-    }
+.social_icons {
+    display:none
 }
 
 .author__urls-wrapper {
