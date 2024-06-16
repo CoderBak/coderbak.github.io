@@ -120,7 +120,6 @@
     }
 }
 
-/*
 .author__urls {
     display: none;
     position: absolute;
@@ -134,19 +133,8 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     cursor: default
 }
-*/
 
-.author__urls {
-    display:block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none
-}
-
-/*@media (min-width: 57.8125em) {
+@media (min-width: 57.8125em) {
     .author__urls {
         display:block;
         position: relative;
@@ -156,7 +144,7 @@
         background: transparent;
         box-shadow: none
     }
-}*/
+}
 
 .author__urls:before {
     display: block;
