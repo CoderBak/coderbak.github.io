@@ -2,72 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://coderbak.com/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/404/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/assignments/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/projects/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/courses/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/courses/aut-ap1400/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/courses/berkeley-cs61a/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/courses/berkeley-cs61b/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/courses/duke-c/</loc>
-         <lastmod>2024-06-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://coderbak.com/courses/mit-18.781/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/courses/stanford-cs106l/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/topics/group-theory/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/topics/nlp/transformer/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://coderbak.com/topics/number-theory/sieve/</loc>
-         <lastmod>2024-06-17</lastmod>
+         <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
