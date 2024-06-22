@@ -7,7 +7,7 @@
     font-size: .7rem
 }
 
-@media (min-width: 57.8125em) {
+@media (min-width: 76.234375em) {
     #_main_sidebar {
         display: none !important;
     }
@@ -16,12 +16,6 @@
 @media (min-width: 57.8125em) {
     .profile_box {
         display: block !important;
-    }
-}
-
-@media (min-width: 57.8125em) {
-    #_main_sidebar {
-        display: none !important;
     }
 }
 
