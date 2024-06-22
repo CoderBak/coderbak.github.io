@@ -8,8 +8,20 @@
 }
 
 @media (min-width: 57.8125em) {
+    #_main_sidebar {
+        display: none !important;
+    }
+}
+
+@media (min-width: 57.8125em) {
     .profile_box {
-        display:block
+        display: block !important;
+    }
+}
+
+@media (min-width: 57.8125em) {
+    #_main_sidebar {
+        display: none !important;
     }
 }
 
