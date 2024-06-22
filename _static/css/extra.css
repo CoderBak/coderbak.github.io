@@ -7,7 +7,7 @@
     font-size: .7rem
 }
 
-@media (min-width: 76.234375em) {
+@media (min-width: 57.8125em) {
     #_main_sidebar {
         display: none !important;
     }

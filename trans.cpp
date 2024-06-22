@@ -2,6 +2,23 @@
 #include <fstream>
 #include <regex>
 
+std::string replaceSecondOccurrence(const std::string& input, const std::regex& pattern, const std::string& replacement) {
+    std::string result = input;
+    auto begin = std::sregex_iterator(input.begin(), input.end(), pattern);
+    auto end = std::sregex_iterator();
+    int count = 0;
+    std::smatch match;
+    for (auto i = begin; i != end; ++i) {
+        match = *i;
+        count++;
+        if (count == 2) {
+            result.replace(match.position(), match.length(), replacement);
+            break;
+        }
+    }
+    return result;
+}
+
 int main() {
     std::ifstream inputFile("../site/index.html");
     if (!inputFile.is_open()) {
@@ -44,7 +61,7 @@ int main() {
   </div>
 </div>
     <div class=md-sidebar__scrollwrap id="_main_sidebar">)";
-    std::string replacedContent2 = std::regex_replace(replacedContent, pattern2, replacement2);
+    std::string replacedContent2 = replaceSecondOccurrence(replacedContent, pattern2, replacement2);
     std::regex pattern3(R"(<h1>Home</h1>)");
     std::string replacement3 = R"()";
     std::string replacedContent3 = std::regex_replace(replacedContent2, pattern3, replacement3);
