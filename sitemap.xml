@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://coderbak.com/courses/stanford-cs103/</loc>
+         <lastmod>2024-06-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://coderbak.com/courses/stanford-cs106l/</loc>
          <lastmod>2024-06-23</lastmod>
          <changefreq>daily</changefreq>
