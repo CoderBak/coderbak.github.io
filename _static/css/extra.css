@@ -265,7 +265,8 @@
 
 .paper-box .paper-box-text {
     max-width: 100%;
-    order: 1
+    order: 1;
+    font-size: .73rem
 }
 
 @media (min-width: 48em) {
