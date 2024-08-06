@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://coderbak.com/courses/berkeley-eecs126/</loc>
+         <lastmod>2024-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://coderbak.com/courses/cmu-15-150/</loc>
          <lastmod>2024-08-06</lastmod>
          <changefreq>daily</changefreq>
