@@ -23,8 +23,7 @@
 
 .small-paper-box .small-paper-box-text {
     max-width: 100%;
-    order: 1;
-    font-size: .73rem
+    order: 1
 }
 
 @media (min-width: 48em) {
