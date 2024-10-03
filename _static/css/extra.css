@@ -31,14 +31,14 @@
     .small-paper-box .small-paper-box-image {
         justify-content:left;
         min-width: 200px;
-        max-width: 23%;
+        max-width: 20%;
         order: 1
     }
 
     .small-paper-box .small-paper-box-text {
         justify-content: left;
         padding-left: 2em;
-        max-width: 77%;
+        max-width: 80%;
         order: 2
     }
 }
