@@ -29,7 +29,6 @@
 @media (min-width: 48em) {
     .small-paper-box .small-paper-box-image {
         justify-content:left;
-        min-width: 200px;
         max-width: 23%;
         order: 1
     }
