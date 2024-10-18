@@ -24,6 +24,7 @@
 .small-paper-box .small-paper-box-text {
     width: 100%;
     order: 1;
+    padding-top: .5em;
     padding-bottom: .5em;
 }
 
@@ -317,6 +318,7 @@
     max-width: 100%;
     order: 1;
     font-size: .73rem;
+    padding-top: .5em;
     padding-bottom: .5em
 }
 
